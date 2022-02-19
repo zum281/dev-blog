@@ -1,35 +1,50 @@
 {
-  "name": "dev-blog",
-  "version": "1.0.0",
-  "private": true,
-  "description": "DevBlog",
-  "author": "Fulvia",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "gatsby": "^4.7.2",
-    "gatsby-plugin-emotion": "^7.7.0",
-    "gatsby-plugin-google-analytics": "^4.7.0",
-    "gatsby-plugin-image": "^2.7.0",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "gatsby-plugin-react-helmet": "^5.7.0",
-    "gatsby-plugin-sharp": "^4.7.0",
-    "gatsby-plugin-sitemap": "^5.7.0",
-    "gatsby-source-contentful": "^7.5.0",
-    "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-transformer-sharp": "^4.7.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
-  }
+    "name": "dev-blog",
+    "version": "1.0.0",
+    "private": true,
+    "description": "DevBlog",
+    "author": "Fulvia",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "dev": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "check": "npn-check .",
+        "update": "npm-check . --update",
+        "lint": "eslint . --ext ts --ext tsx",
+        "type-check": "tsc --pretty --noEmit"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "gatsby": "^4.7.2",
+        "gatsby-plugin-emotion": "^7.7.0",
+        "gatsby-plugin-google-analytics": "^4.7.0",
+        "gatsby-plugin-image": "^2.7.0",
+        "gatsby-plugin-manifest": "^4.7.0",
+        "gatsby-plugin-react-helmet": "^5.7.0",
+        "gatsby-plugin-sharp": "^4.7.0",
+        "gatsby-plugin-sitemap": "^5.7.0",
+        "gatsby-plugin-typescript": "^4.7.0",
+        "gatsby-source-contentful": "^7.5.0",
+        "gatsby-source-filesystem": "^4.7.0",
+        "gatsby-transformer-sharp": "^4.7.0",
+        "npm-check": "^5.9.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "typescript": "^4.5.5"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.18",
+        "@types/react": "^17.0.39",
+        "@types/react-dom": "^17.0.11",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-plugin-prettier": "^4.0.0"
+    }
 }
