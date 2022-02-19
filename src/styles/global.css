@@ -1,41 +1,43 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html,
 body {
-    font-size: 16px;
+	font-size: 16px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body,
 #gatsby-focus-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 main {
-    display: block;
-    flex: 1 0 auto;
+	display: block;
+	flex: 1 0 auto;
 }
 
 a {
-    text-decoration: none;
+	color: initial;
+	text-decoration: none;
 }
 
 ul,
 ol {
-    margin: 0;
+	margin: 0;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 ol {
-    list-style-type: decimal;
+	list-style-type: decimal;
 }

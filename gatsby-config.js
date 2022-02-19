@@ -1,6 +1,9 @@
 /* eslint-disable no-undef */
 module.exports = {
 	siteMetadata: {
+		title: "DevBlog",
+		description:
+			"A blog about web development, created for a dev challenge.",
 		siteUrl: "https://www.yourdomain.tld",
 	},
 	plugins: [
